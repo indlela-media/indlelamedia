@@ -1,4 +1,4 @@
-# indlelamedia
+# Indlela Media
 
 ## About
 Repository for our website www.indlelamedia.com
