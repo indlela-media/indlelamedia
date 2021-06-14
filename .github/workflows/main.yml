@@ -1,4 +1,4 @@
-name: build and deploy
+name: Firebase build and deploy
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout respository
         uses: actions/checkout@main
