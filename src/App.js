@@ -1,29 +1,25 @@
+//React Modules
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //SCSS
-import './scss/main.scss';
 import './scss/responsive.scss';
 
 //CSS
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 //Components
-import Navigation from './components/navigationBar';
-import HeroSection from './components/heroSection';
-import CallToAction from './components/callToAction';
-import Services from './components/services';
-import Portfolio from './components/portfolio';
-import ContactUs from './components/contactUs';
-
+import HomePage from '../src/components/Homepage';
+import Header from './components/home/Header';
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <HeroSection />
-      <CallToAction />
-      <Services />
-      <Portfolio />
-      <ContactUs />
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+        </Switch>
+      </Router>
     </div>
   );
 }

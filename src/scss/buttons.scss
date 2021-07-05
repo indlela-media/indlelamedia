@@ -1,0 +1,15 @@
+@use '../scss/branding.scss' as brand;
+
+
+.yellowGreen {
+    background-color: brand.$yellow-green-crayola;
+    border: none;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.yellowGreen:hover{
+    color: grey;
+    background-color: brand.$dark-sea-green;
+}
