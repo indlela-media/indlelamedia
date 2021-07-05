@@ -1,4 +1,9 @@
 @use './branding.scss' as brand;
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    font-family: Poppins, sans-serif;
+}
 
 //Navbar Component
 .navLine {
@@ -13,6 +18,10 @@ ul {
         a {
             text-decoration: none;
             color: black;
+        }
+
+        a:hover {
+            color: brand.$dark-cornflower-blue;
         }
 
         .uderlined {
