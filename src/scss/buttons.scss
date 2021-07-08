@@ -4,12 +4,44 @@
 .yellowGreen {
     background-color: brand.$yellow-green-crayola;
     border: none;
-    padding: 0.5em;
+    padding: 0.5em 1vw;
     text-decoration: none;
     font-weight: bolder;
+    font-weight: 200;
 }
 
 .yellowGreen:hover{
+    color: white;
+    background-color: brand.$dark-sea-green;
+}
+
+.greenBlueBtn {
+    background-color: brand.$teal-blue;
+    border: none;
+    padding: 0.5em 1vw;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white !important;
+    font-weight: 200;
+}
+
+.greenBlueBtn:hover{
+    color: grey;
+    background-color: brand.$dark-sea-green;
+}
+
+.callToActionBtn {
+    background-color: brand.$yellow-green-crayola;
+    border: none;
+    padding: 1.5em 5vw;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black !important;
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+
+.callToActionBtn:hover{
     color: grey;
     background-color: brand.$dark-sea-green;
 }

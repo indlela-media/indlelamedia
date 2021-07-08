@@ -8,7 +8,7 @@ import NavLine from './NavLine';
 //
 export default function Header() {
     return (
-        <header className="">
+        <header className="fixed-top">
             <NavLine />
             <Navbar />
         </header>

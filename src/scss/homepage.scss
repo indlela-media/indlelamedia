@@ -2,8 +2,13 @@
 //Add To Main.scss to the App component.
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+//Global
 * {
     font-family: Poppins, sans-serif;
+}
+
+a {
+    color: black;
 }
 
 //Navbar Component
@@ -21,7 +26,7 @@ ul {
             color: black;
         }
 
-        a:hover {s
+        a:hover {
             color: brand.$dark-cornflower-blue;
         }
 
@@ -43,4 +48,40 @@ ul {
 .navBar {
     background-color: white !important;
     padding: 1em 0;
+}
+
+//HERO SECTION
+.heroSection {
+    height: 100vh;
+
+    background: url('../assets/img/women-in-tech-background-image.jpg') fixed center center no-repeat;
+    background-size: cover;
+
+    div {
+        h1 {
+            font-weight: 800 !important;
+            font-size: 4.5vw !important;
+            color: white;
+        }
+
+        div {
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+//CALL TO ACTION
+.callToActionBg {
+    background: brand.$teal-blue;
+}
+
+.callToAction {
+    div {
+        p {
+            font-size: 1.8vw;
+            color: white;
+        }
+    }
 }
